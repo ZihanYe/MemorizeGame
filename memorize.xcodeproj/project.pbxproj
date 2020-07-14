@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6176F81A06EA4B060E90ED /* Pods_memorize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A6FB0B7157AF21D48B5698 /* Pods_memorize.framework */; };
 		D40A431B24B20F590000326E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40A431A24B20F590000326E /* AppDelegate.swift */; };
 		D40A431D24B20F590000326E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40A431C24B20F590000326E /* SceneDelegate.swift */; };
-		D40A431F24B20F590000326E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40A431E24B20F590000326E /* ContentView.swift */; };
+		D40A431F24B20F590000326E /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40A431E24B20F590000326E /* EmojiMemoryGameView.swift */; };
 		D40A432124B20F5B0000326E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40A432024B20F5B0000326E /* Assets.xcassets */; };
 		D40A432424B20F5B0000326E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40A432324B20F5B0000326E /* Preview Assets.xcassets */; };
 		D40A432724B20F5B0000326E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40A432524B20F5B0000326E /* LaunchScreen.storyboard */; };
+		D40A432F24B213ED0000326E /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40A432E24B213ED0000326E /* MemoryGame.swift */; };
+		D40A433524B2BA840000326E /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40A433424B2BA840000326E /* EmojiMemoryGame.swift */; };
+		D42A3D3A24BB354400DD444B /* MainSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A3D3924BB354400DD444B /* MainSectionView.swift */; };
+		D42A3D4024BB428E00DD444B /* WordMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A3D3F24BB428E00DD444B /* WordMemoryGame.swift */; };
+		D42A3D4524BB547E00DD444B /* words in Resources */ = {isa = PBXBuildFile; fileRef = D42A3D4424BB547E00DD444B /* words */; };
+		D42A3D4724BB550900DD444B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A3D4624BB550900DD444B /* CardView.swift */; };
+		D48E9E1524B451640073B8AC /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E9E1424B451640073B8AC /* Grid.swift */; };
+		D48E9E1724B49FA90073B8AC /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E9E1624B49FA90073B8AC /* GridLayout.swift */; };
+		D48E9E1924B4A3710073B8AC /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E9E1824B4A3710073B8AC /* Array+Identifiable.swift */; };
+		D4A33F7C24BD5DD60087CC1C /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = D4A33F7B24BD5DD60087CC1C /* confetti.json */; };
+		D4A33F7E24BD5F8B0087CC1C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A33F7D24BD5F8B0087CC1C /* LottieView.swift */; };
+		D4B7BA8524B7209D000CB78A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B7BA8424B7209D000CB78A /* Pie.swift */; };
+		D4D29A2D24B61B47003C4CD4 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29A2C24B61B47003C4CD4 /* Array+Only.swift */; };
+		D4E40E1324B740350056FD2E /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E40E1224B740350056FD2E /* Cardify.swift */; };
+		D4F2425E24BC0C6900434284 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2425D24BC0C6900434284 /* MemoryGameView.swift */; };
+		D4F2426024BC233300434284 /* DetailMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2425F24BC233300434284 /* DetailMemoryGame.swift */; };
+		D4F2426224BC582400434284 /* FinishOverly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2426124BC582400434284 /* FinishOverly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5458F16E692633A9C8B33C25 /* Pods-memorize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memorize.release.xcconfig"; path = "Target Support Files/Pods-memorize/Pods-memorize.release.xcconfig"; sourceTree = "<group>"; };
+		6857AC0BECB6A9093D278AE2 /* Pods-memorize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memorize.debug.xcconfig"; path = "Target Support Files/Pods-memorize/Pods-memorize.debug.xcconfig"; sourceTree = "<group>"; };
+		92A6FB0B7157AF21D48B5698 /* Pods_memorize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memorize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40A431724B20F590000326E /* memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40A431A24B20F590000326E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D40A431C24B20F590000326E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D40A431E24B20F590000326E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D40A431E24B20F590000326E /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		D40A432024B20F5B0000326E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40A432324B20F5B0000326E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D40A432624B20F5B0000326E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D40A432824B20F5B0000326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40A432E24B213ED0000326E /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		D40A433424B2BA840000326E /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		D42A3D3924BB354400DD444B /* MainSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSectionView.swift; sourceTree = "<group>"; };
+		D42A3D3F24BB428E00DD444B /* WordMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordMemoryGame.swift; sourceTree = "<group>"; };
+		D42A3D4424BB547E00DD444B /* words */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words; sourceTree = "<group>"; };
+		D42A3D4624BB550900DD444B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = /Users/zihan/Developer/ios/memorize/memorize/CardView.swift; sourceTree = "<absolute>"; };
+		D48E9E1424B451640073B8AC /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D48E9E1624B49FA90073B8AC /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		D48E9E1824B4A3710073B8AC /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		D4A33F7B24BD5DD60087CC1C /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		D4A33F7D24BD5F8B0087CC1C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		D4B7BA8424B7209D000CB78A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = SOURCE_ROOT; };
+		D4D29A2C24B61B47003C4CD4 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		D4E40E1224B740350056FD2E /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		D4F2425D24BC0C6900434284 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		D4F2425F24BC233300434284 /* DetailMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMemoryGame.swift; sourceTree = "<group>"; };
+		D4F2426124BC582400434284 /* FinishOverly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishOverly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6176F81A06EA4B060E90ED /* Pods_memorize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12A44F7A19C45507D50F2F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A6FB0B7157AF21D48B5698 /* Pods_memorize.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEBAA1E92761D4E5244FC18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6857AC0BECB6A9093D278AE2 /* Pods-memorize.debug.xcconfig */,
+				5458F16E692633A9C8B33C25 /* Pods-memorize.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D40A430E24B20F590000326E = {
 			isa = PBXGroup;
 			children = (
 				D40A431924B20F590000326E /* memorize */,
 				D40A431824B20F590000326E /* Products */,
+				D4A33F7A24BD5DD60087CC1C /* LottieAnimation */,
+				CAEBAA1E92761D4E5244FC18 /* Pods */,
+				12A44F7A19C45507D50F2F31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +117,27 @@
 			children = (
 				D40A431A24B20F590000326E /* AppDelegate.swift */,
 				D40A431C24B20F590000326E /* SceneDelegate.swift */,
-				D40A431E24B20F590000326E /* ContentView.swift */,
+				D42A3D3924BB354400DD444B /* MainSectionView.swift */,
+				D4F2425D24BC0C6900434284 /* MemoryGameView.swift */,
+				D40A431E24B20F590000326E /* EmojiMemoryGameView.swift */,
+				D42A3D4624BB550900DD444B /* CardView.swift */,
+				D4E40E1224B740350056FD2E /* Cardify.swift */,
+				D4B7BA8424B7209D000CB78A /* Pie.swift */,
+				D48E9E1424B451640073B8AC /* Grid.swift */,
+				D48E9E1624B49FA90073B8AC /* GridLayout.swift */,
+				D4F2426124BC582400434284 /* FinishOverly.swift */,
+				D4A33F7D24BD5F8B0087CC1C /* LottieView.swift */,
 				D40A432024B20F5B0000326E /* Assets.xcassets */,
 				D40A432524B20F5B0000326E /* LaunchScreen.storyboard */,
 				D40A432824B20F5B0000326E /* Info.plist */,
 				D40A432224B20F5B0000326E /* Preview Content */,
+				D4F2425F24BC233300434284 /* DetailMemoryGame.swift */,
+				D42A3D3F24BB428E00DD444B /* WordMemoryGame.swift */,
+				D40A433424B2BA840000326E /* EmojiMemoryGame.swift */,
+				D40A432E24B213ED0000326E /* MemoryGame.swift */,
+				D48E9E1824B4A3710073B8AC /* Array+Identifiable.swift */,
+				D4D29A2C24B61B47003C4CD4 /* Array+Only.swift */,
+				D42A3D4424BB547E00DD444B /* words */,
 			);
 			path = memorize;
 			sourceTree = "<group>";
@@ -75,6 +150,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D4A33F7A24BD5DD60087CC1C /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D4A33F7B24BD5DD60087CC1C /* confetti.json */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40A432B24B20F5B0000326E /* Build configuration list for PBXNativeTarget "memorize" */;
 			buildPhases = (
+				5838AB4374835846BAF76E2D /* [CP] Check Pods Manifest.lock */,
 				D40A431324B20F590000326E /* Sources */,
 				D40A431424B20F590000326E /* Frameworks */,
 				D40A431524B20F590000326E /* Resources */,
+				33544C1E22469C15CAF36142 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A33F7C24BD5DD60087CC1C /* confetti.json in Resources */,
+				D42A3D4524BB547E00DD444B /* words in Resources */,
 				D40A432724B20F5B0000326E /* LaunchScreen.storyboard in Resources */,
 				D40A432424B20F5B0000326E /* Preview Assets.xcassets in Resources */,
 				D40A432124B20F5B0000326E /* Assets.xcassets in Resources */,
@@ -141,14 +228,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33544C1E22469C15CAF36142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memorize/Pods-memorize-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memorize/Pods-memorize-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memorize/Pods-memorize-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5838AB4374835846BAF76E2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memorize-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D40A431324B20F590000326E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42A3D4024BB428E00DD444B /* WordMemoryGame.swift in Sources */,
+				D4A33F7E24BD5F8B0087CC1C /* LottieView.swift in Sources */,
+				D4E40E1324B740350056FD2E /* Cardify.swift in Sources */,
+				D4B7BA8524B7209D000CB78A /* Pie.swift in Sources */,
+				D42A3D4724BB550900DD444B /* CardView.swift in Sources */,
+				D4F2426224BC582400434284 /* FinishOverly.swift in Sources */,
 				D40A431B24B20F590000326E /* AppDelegate.swift in Sources */,
 				D40A431D24B20F590000326E /* SceneDelegate.swift in Sources */,
-				D40A431F24B20F590000326E /* ContentView.swift in Sources */,
+				D40A432F24B213ED0000326E /* MemoryGame.swift in Sources */,
+				D42A3D3A24BB354400DD444B /* MainSectionView.swift in Sources */,
+				D4D29A2D24B61B47003C4CD4 /* Array+Only.swift in Sources */,
+				D4F2426024BC233300434284 /* DetailMemoryGame.swift in Sources */,
+				D40A431F24B20F590000326E /* EmojiMemoryGameView.swift in Sources */,
+				D40A433524B2BA840000326E /* EmojiMemoryGame.swift in Sources */,
+				D48E9E1924B4A3710073B8AC /* Array+Identifiable.swift in Sources */,
+				D4F2425E24BC0C6900434284 /* MemoryGameView.swift in Sources */,
+				D48E9E1724B49FA90073B8AC /* GridLayout.swift in Sources */,
+				D48E9E1524B451640073B8AC /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +426,7 @@
 		};
 		D40A432C24B20F5B0000326E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6857AC0BECB6A9093D278AE2 /* Pods-memorize.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +447,7 @@
 		};
 		D40A432D24B20F5B0000326E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5458F16E692633A9C8B33C25 /* Pods-memorize.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

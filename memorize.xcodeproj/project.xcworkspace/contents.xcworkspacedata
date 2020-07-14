@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:memorize.xcodeproj">
+      location = "group:/Users/zihan/Developer/ios/memorize/memorize/CardView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/zihan/Developer/ios/memorize/memorize/words.txt">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
